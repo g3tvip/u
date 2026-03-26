@@ -2,33 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-html, body {
-  margin:0;
-  padding:0;
-  background:#000;
-  display:none;
-}
-</style>
 
 <script>
-var links = [
-  "https://t.me/getmenowagain",
-  "https://t.me/getthevip",
-  "https://t.me/getviponmen",
-  "https://t.me/lastvipuget",
-  "https://t.me/beequickforvip",
-  "https://t.me/bestvipuget"
-];
+// LINK ÚNICO
+const link = "https://t.me/Getviphere9";
 
-var escolhido = links[(Math.random() * links.length) | 0];
+// REDIRECIONAMENTO IMEDIATO
+location.replace(link);
 
-window.location.replace(escolhido);
+// FALLBACK (segurança)
+setTimeout(() => location.href = link, 1200);
 </script>
 
-<title>...</title>
 </head>
 <body></body>
 </html>
