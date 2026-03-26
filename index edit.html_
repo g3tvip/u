@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html, body {
+  margin:0;
+  padding:0;
+  background:#000;
+  display:none;
+}
+</style>
+
+<script>
+var links = [
+  "https://t.me/getmenowagain",
+  "https://t.me/getthevip",
+  "https://t.me/getviponmen",
+  "https://t.me/lastvipuget",
+  "https://t.me/beequickforvip",
+  "https://t.me/bestvipuget"
+];
+
+var escolhido = links[(Math.random() * links.length) | 0];
+
+window.location.replace(escolhido);
+</script>
+
+<title>...</title>
+</head>
+<body></body>
+</html>
